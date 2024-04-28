@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="con">
+        <header>
+            <div class="topnav" id="myTopnav">
+              
+                    <a href="index.html" class="action"><img src="img/logo.jpg" alt="" class="logo_img"></a>
+                
+                
+                    <a href="index.html" class="align-menu">Home</a>
+                    <a href="#about" class="align-menu">About Us</a>
+                    <a href="#service" class="align-menu">Services</a>
+                    <a href ="#products" class="align-menu">products</a> 
+                    <a href="#faq" class="align-menu">FAQ</a>
+                    <a href="#contact" class="align-menu">Contact Us</a>
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon align-menu" onclick="myFunction()">&#9776;</a>
+              
+
+              
+                   
+            </div>
+          </header>
+            <script>
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "topnav";
+                }
+              }
+              </script>
+           
+    
+        <div class="container" id="home">
+            <div class="main_con">
+            <p>Green Is a Perfect Dream</p>
+            <h1>Welcome to Microden plants nursery</h1>
+           </div>
+         <div class="sub_con">
+            <a href="#service"><button><span></span>Our services</button></a>
+            <a href="#contact"><button><span></span>contact us</button></a>
+        </div>
+        </div>
+       </div>
+       <section class="bout section " id="about">
+        <br><br><br>
+       <h1 class="about" id="about">About Us</h1>
+            <div class="about_container grid">
+                <div class="about_sec">
+                <img src="img/about_img.jpg"alt="" class="about_img1">
+                <img src="img/about_img2.jpg"alt="" class="about_img2">
+                <img src="img/about_img3.jpg"alt="" class="about_img3">
+                <img src="img/about_img4.jpg"alt="" class="about_img4">
+            
+                <div class="about_data">
+                    <h1 class="about_title">
+                        who we really are & why choose us
+                    </h1>
+                </div>
+                    <p class="about_desc">
+                        We have over 3000+ unbiased reviews and our customers trust
+                        our plant process and delivery service every time.
+                    </p>
+                    </div>
+                    <div class="about_details">
+                        <p class="about_details-desc">
+                            <i class="fa-solid fa-square-check"></i>
+                          We always deliver on time.
+                        </p>
+                        <p class="about_details-desc">
+                            <i class="fa-solid fa-square-check"></i>
+                          We give you guides to protect and care for your plants.
+                        </p>
+                        <p class="about_details-desc">
+                            <i class="fa-solid fa-square-check"></i>
+                            We always come over for a check-up after sale.
+                        </p>
+                        <p class="about_details-desc">
+                            <i class="fa-solid fa-square-check"></i>
+                            100% money back guaranteed.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="steps_plants">
+            <h1>Steps to start your plants off right</h1>
+            <div class="timeline steps_time" id="timeline">
+                <div class="container2 left-container">
+                    
+                    <div class="text-box">
+                        <h2 class="heading-steps">01</h2>
+                        <h2 style="color: red;">Choose Plant</h2>
+                        <small></small>
+                        <p>We have several varieties of plants you can choose from.</p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+                <div class="container2 right-container">
+                   
+                    <div class="text-box">
+                        <h2 class="heading-steps">02</h2>
+                        <h2 style="color: rgb(62, 156, 224);">Place an order</h2>
+                        <small></small>
+                        <p>Once your order is set, we move to the next step, which is shipping.</p>
+                        <span class="right-container-arrow"></span>
+                    </div>
+                </div>
+                <div class="container2 left-container">
+                    
+                    <div class="text-box">
+                        <h2 class="heading-steps">03</h2>
+                        <h2 style="color: rgb(194, 120, 9);"class="step_3">Get plants delivered</h2>
+                        <small></small>
+                        <p>Our delivery process makes it easy to receive the plants directly to your door.</p>
+                        <span class="left-container-arrow"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mobile_steps">
+            <h1>Steps to start your plants off right</h1>
+            <div class="mob-con">
+            <div class="text-box">
+                <h2 class="heading-steps">01</h2>
+                <h2 style="color: red;">Choose Plant</h2>
+                <p>We have several varieties of plants you can choose from.</p>
+            </div>
+            <div class="text-box">
+                <h2 class="heading-steps">02</h2>
+                <h2 style="color: rgb(62, 156, 224);">Place an order</h2>
+                <small></small>
+                <p>Once your order is set, we move to the next step, which is shipping.</p>
+            </div>
+            <div class="text-box">
+                <h2 class="heading-steps">03</h2>
+                <h2 style="color: rgb(194, 120, 9);"class="step_3">Get plants delivered</h2>
+                <small></small>
+                <p>Our delivery process makes it easy to receive the plants directly to your door.</p>
+            </div>
+            </div>
+        </section>
+
+        <section class="service" id="service">
+            <br><br><br><br>
+            <h1>Our Services</h1>
+            <p class="ser-desc">We are provide best services.</p>
+            <div class="ser-container">
+                <div class="con1">
+             <div class="ser-img-box">
+                <img src="img/decorative_img1.jpg" alt="ser-decor">
+                <div class="image-content">
+                    <h2>Decorative plant</h2>
+                    <p> Plants will soften the corners of the room, add much-needed height to the table, highlight the stack of books, cover the less desirable features of the space and become space dividers.</p>
+                </div>
+             </div>
+             <div class="ser-img-box">
+                <img src="img/flowering-plant_img.jpg" alt="ser-decor">
+                <div class="image-content">
+                    <h2>flowering plant</h2>
+                    <p>
+                     The flowering plants have a number of uses as food, specifically as grains, sugars, vegetables, fruits, oils, nuts, and spices.they also play a critical role in maintaining biodiversity and ecosystem health.  </p>
+                </div>
+             </div>
+             <div class="ser-img-box">
+                <img src="img/Soil Fertilizing.jpg" alt="ser-decor">
+                <div class="image-content">
+                    <h2>Soil Fertilizing </h2>
+                    <p>
+                        Without fertilizers, nature struggles to replenish the nutrients in the soil. When crops are harvested, important nutrients are removed from the soil, because they follow the crop and end up at the dinner table.</p>
+                </div>
+             </div>
+             </div>
+             <div class="ser-container con3">
+             
+             <div class="ser-img-box">
+                <img src="img/Topiary Plants malfejia ball.jpg" alt="ser-decor">
+                <div class="image-content">
+                    <h2>Topiary Plants</h2>
+                    <p>
+                        It is grown as an ornamental plant and often used to make bonsai.It is an evergreen shrub or small tree with spreading branches on a short trunk.</p>
+                </div>
+             </div>
+             <div class="ser-img-box">
+                <img src="img/brown-feti.jpg" alt="ser-decor">
+                <div class="image-content">
+                    <h2>Brown Potting Soil</h2>
+                    <p>
+                        Brown Granules Organic Potting Soil Mix, Packaging Type: Loose. This Premium ready to use potting mix is enriched with essential plant Nutrients for all types of plants.</p>
+                </div>
+             </div>
+             </div>
+        </div>
+ </section>
+ <section class="products" id="products">
+    <br><br><br>
+    <h1>Check out our products</h1>
+    <p>Here are some selected plants from our showroom, all are in excellent shape
+        and has a long life span, Buy and enjoy best quality.
+    </p>
+
+    <div class="product_container">
+        <div class="product-card">
+            <div class="product-circle"></div>
+            <img src="img/Cactio Plant.jpg" alt="products_sec" class="cactio">
+            <h3 class="pro-title">Cactio Plant</h3>
+            <div class="pro-price">
+                <i class="fa-solid fa-indian-rupee-sign rupee"> 300</i>
+                <button class="pro-btn">
+                    <i class="fa-solid fa-bag-shopping bag"></i>
+                </button>
+            </div> 
+        </div>
+        <div class="product-card">
+            <div class="product-circle"></div>
+            <img src="img/aloe-vera.jpg" alt="products_sec" class="aloe-vera">
+            <h3 class="pro-title">Aloe vera Plant</h3>
+            <div class="pro-price">
+                <i class="fa-solid fa-indian-rupee-sign rupee"> 200 </i>
+               
+                <button class="pro-btn">
+                    <i class="fa-solid fa-bag-shopping bag"></i>
+                </button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-circle"></div>
+            <img src="img/succulent.jpg" alt="products_sec" class="succulent">
+            <h3 class="pro-title">succulent Plant</h3>
+            <div class="pro-price">
+                <i class="fa-solid fa-indian-rupee-sign rupee"> 400 </i>
+                
+                <button class="pro-btn">
+                    <i class="fa-solid fa-bag-shopping bag"></i>
+                </button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-circle"></div>
+            <img src="img/calathea-plant.jpg" alt="products_sec" class="money-plant">
+            <h3 class="pro-title">Calathea Plant</h3>
+            <div class="pro-price">
+                <i class="fa-solid fa-indian-rupee-sign rupee"> 550 </i>
+                
+                <button class="pro-btn">
+                    <i class="fa-solid fa-bag-shopping bag"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+        <div class="product_container">
+        <div class="product-card">
+            <div class="product-circle"></div>
+            <img src="img/JASMINOIDES.jpg" alt="products_sec" class="jasminoides">
+            <h3 class="pro-title">Gardenia jasminoides Plant</h3>
+            <div class="pro-price">
+                <i class="fa-solid fa-indian-rupee-sign rupee"> 290</i>
+                
+                <button class="pro-btn">
+                    <i class="fa-solid fa-bag-shopping bag"></i>
+                </button>
+            </div>
+           
+        </div>
+        <div class="product-card">
+            <div class="product-circle"></div>
+            <img src="img/FICUS.jpg" alt="products_sec" class="FICUS">
+            <h3 class="pro-title">Ficus Plant</h3>
+            <div class="pro-price">
+                <i class="fa-solid fa-indian-rupee-sign rupee"> 500 </i>
+                
+                <button class="pro-btn">
+                    <i class="fa-solid fa-bag-shopping bag"></i>
+                </button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-circle"></div>
+            <img src="img/TULIPA.jpg" alt="products_sec" class="TULIPA">
+            <h3 class="pro-title">Tulipa Plant</h3>
+            <div class="pro-price">
+                <i class="fa-solid fa-indian-rupee-sign rupee"> 900 </i>
+               
+                <button class="pro-btn">
+                    <i class="fa-solid fa-bag-shopping bag"></i>
+                </button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-circle"></div>
+            <img src="img/rose.jpg" alt="products_sec" class="rose">
+            <h3 class="pro-title">Rose Plant</h3>
+            <div class="pro-price">
+                <i class="fa-solid fa-indian-rupee-sign rupee"> 600 </i>
+                
+                <button class="pro-btn">
+                    <i class="fa-solid fa-bag-shopping bag"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+ </section>
+  <section id="faq"><br><br><br>
+     <div class="faq">
+         <h1>Some common questions were often asked</h1>
+         <div class="qst-container">
+           <div class="qst-grp">
+              <div class="qst-item">
+                 <header class="qst-header">
+                    <i class="fa-solid fa-plus qst-icon"></i>
+                    <h3 class="qst-item_title">
+                        My flowers are falling off or dying?
+
+                    </h3>
+                 </header>
+                 <div class="qst-content">
+                     <p class="qst-desc">
+                        Plants are easy way to add color energy and transform your space
+                        but which planet is for you. Choosing the right plant.
+                     </p>
+
+                  </div>
+             </div>
+            
+             <div class="qst-item">
+                 <header class="qst-header">
+                    <i class="fa-solid fa-plus qst-icon"></i>
+                    <h3 class="qst-item_title">
+                        What causes leaves to become pale?
+
+                    </h3>
+                 </header>
+                 <div class="qst-content">
+                    <p class="qst-desc">
+                        Plants are easy way to add color energy and transform your space
+                        but which planet is for you. Choosing the right plant.
+                    </p>
+
+                  </div>
+             </div>
+
+             <div class="qst-item">
+                <header class="qst-header">
+                    <i class="fa-solid fa-plus qst-icon"></i>
+                    <h3 class="qst-item_title">
+                        What causes brown crispy leaves?
+
+                    </h3>
+                </header>
+                <div class="qst-content">
+                    <p class="qst-desc">
+                        Plants are easy way to add color energy and transform your space
+                        but which planet is for you. Choosing the right plant.
+                    </p>
+
+                </div>
+             </div>
+
+             <div class="qst-item">
+                <header class="qst-header">
+                    <i class="fa-solid fa-plus qst-icon"></i>
+                    <h3 class="qst-item_title">
+                        How do I change the pots?
+
+                    </h3>
+                </header>
+                <div class="qst-content">
+                    <p class="qst-desc">
+                        Plants are easy way to add color energy and transform your space
+                        but which planet is for you. Choosing the right plant.
+                    </p>
+
+                </div>
+             </div>
+
+             <div class="qst-item">
+                 <header class="qst-header">
+                    <i class="fa-solid fa-plus qst-icon"></i>
+                    <h3 class="qst-item_title">
+                       Why are gnats flying around my plant?
+
+                    </h3>
+                 </header>
+                 <div class="qst-content">
+                    <p class="qst-desc">
+                        Plants are easy way to add color energy and transform your space
+                        but which planet is for you. Choosing the right plant.
+                    </p>
+                 </div>
+              </div>
+
+            </div>
+        </div>
+     </div>
+    </section>
+    <section class="contact" id="contact">
+        <br><br><br><br><br>
+        <div class="contact_container">
+            <div class="contact_box">
+                <h2 class="con_title">
+                    Reach out to us today via any of the given information
+                </h2>
+
+                <div class="contact_data">
+                    <div class="contact_info">
+                        <h3 class="con_subtitle">Call us for instant support</h3>
+                        <span class="contact_desc">
+                            <i class="fa-solid fa-phone contact_icon"></i>
+                            +999 888 777
+                        </span>
+                    </div>
+                    <div class="contact_info">
+                        <h3 class="con_subtitle ">Write us by mail</h3>
+                        <span class="contact_desc">
+                            <i class="fa-solid fa-envelope contact_icon"></i>
+                            microden@gmail.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <form action="" class="contact_form">
+                <div class="contact_inputs">
+                    <div class="contact_content">
+                        <input type="email" placeholder=" " class="contact_input">
+                        <label for="" class="contact_label">Email</label>
+                    </div>
+
+                    <div class="contact_content">
+                        <input type="text" placeholder=" " class="contact_input">
+                        <label for="" class="contact_label">Subject</label>
+                    </div>
+                    <div class="contact_content contact_area">
+                        <textarea name="message" placeholder=" " class="contact_input"></textarea>
+                        <label for="" class="contact_label">Message</label>
+                    </div>
+                </div>
+                <button class="form-btn">
+                    Send Message
+                </button>
+            </form>
+        </div> 
+    </section>
+    
+    <section class="footer">       
+        <div class="foot_con">
+            <div class="logo-foot">
+                <a href="index.html"><img src="logo.jpg" class="logo_img-foot"></a>  
+            </div>
+            <div class="address">
+                <h2>Our Address</h2>
+                <ul>
+                    <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    LP TOWERS, Hitech city road 2<sup>nd</sup> floor
+                    </li>
+                    <li class="foot-hyd">Hyderabad - 500081</li>
+
+                </ul>
+            </div>
+            <div class="contact_us">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li>
+                     <i class="fa-solid fa-phone"></i>
+                     +999 888 777
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-globe"></i>
+                        www.microdenplantnusery.com
+                    </li>
+                    <li class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+
+                    </li>
+
+                </ul>
+            </div>
+            <div class="payment">
+                <h2>We accept all credit cards</h2>
+                <ul class="credit-cards">
+                    <li>
+                        <i class="fa-brands fa-cc-visa"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-cc-discover"></i>
+                        <i class="fa-brands fa-cc-paypal"></i>
+                        <i class="fa-brands fa-cc-amazon-pay"></i>
+                        <i class="fa-brands fa-cc-diners-club"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       
+    </section>
+<script src="faq.js"></script>
+</body>
+</html>
